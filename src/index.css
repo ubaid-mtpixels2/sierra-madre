@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #31446f;
+  --secondary-color: #6786cc;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.card-container {
+  box-shadow: 0px 4px 75px 4px #0000001a;
+  padding: 17px;
+  border-radius: 12px;
+}
+
+.card-internal-container {
+  padding: 34px 27px;
+  border: 1px solid #dbdbdb;
+  border-radius: 12px;
+}
+
+h1 {
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 56.75px;
+  color: #585858;
+}
+
+.login-p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: #000;
+  margin: 10px 0 20px 0;
+}
+p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28.37px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.custom-button {
+  padding: 13px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  min-width: 141px;
+  border-radius: 4px;
+}
+.link {
+  font-family: Inter;
+  font-size: 13.24px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: #31446f;
+}
+
+.remember-me-label {
+  font-size: 13.24px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #061b33;
+}
+
+.bold-label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28.37px;
+  color: #061b33;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 9px solid var(--secondary-color);
+  background: var(--primary-color);
+  width: 102px;
+  height: 102px;
+  border-radius: 1000px;
+}
+
+
+.main-container {
+  background: #fff;
+  border-radius: 20px;
+  border: 2px solid #F2F3F5;
+}
+
