@@ -148,6 +148,7 @@ p {
   font-weight: 600;
   line-height: 33.17px;
   color: #444951;
+  margin-bottom: 2px;
 }
 
 .happineess-rating-label {
@@ -191,3 +192,28 @@ p {
   color: #444951;
 }
 
+.tickets-left-container {
+  padding: 13px;
+  /* border: 1.33px solid #EEEEEE; */
+}
+
+.chat-container {
+  border: 1px solid #dbdbdb;
+  background: #f2f3f5;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.chat-message-container {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background: #fff;
+}
+.chat-message-input-container {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 12px;
+  font-weight: 300;
+  padding: 12px 25px;
+}

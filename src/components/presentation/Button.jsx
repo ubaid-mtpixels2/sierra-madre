@@ -1,4 +1,4 @@
-import React from "react";
+
 
 function Button({ type, onClick,label, className }) {
   const isPrimary = type === "primary";
