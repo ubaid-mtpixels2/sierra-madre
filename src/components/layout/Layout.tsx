@@ -1,7 +1,9 @@
 import React from "react";
-import { Link, NavLink, Outlet, useLocation } from "react-router-dom";
+import {  NavLink, Outlet, useLocation } from "react-router-dom";
+
 import logo from "../../assets/Logo.svg";
 import { menuItems } from "../../constants/sideNavData";
+import Navbar from "../navbar/Navbar";
 
 function Layout() {
   const location = useLocation();
@@ -42,7 +44,9 @@ function Layout() {
       </aside>
 
       {/* Main content */}
+
       <main className=" main-container w-full bg-white overflow-auto">
+        <Navbar/>
         <Outlet />
       </main>
     </div>

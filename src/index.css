@@ -92,10 +92,68 @@ p {
   border-radius: 1000px;
 }
 
-
 .main-container {
   background: #fff;
   border-radius: 20px;
-  border: 2px solid #F2F3F5;
+  border: 2px solid #f2f3f5;
+}
+
+.navbar-profile-name {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 28.37px;
+  color: #061b33;
+}
+
+.navbar-profile-image {
+  height: 47px;
+  width: 47px;
+  border-radius: 47px;
+  object-fit: contain;
+}
+
+.current-ticket-stats-value {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 33.17px;
+  color: #585858;
+}
+
+.current-ticket-stats-label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 33.17px;
+  color: #4c535e;
+}
+
+.dashboard-card-container {
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  padding: 36px 40px;
+}
+
+.dashboard-card-label {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 33.17px;
+  color: #585858;
+  margin-bottom: 15px;
+}
+
+.happineess-rating-label-bold {
+font-size: 14px;
+font-weight: 600;
+line-height: 33.17px;
+color: #444951;
+}
+
+.happineess-rating-label {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 33.17px;
+color: #4C535E;  
 }
 
