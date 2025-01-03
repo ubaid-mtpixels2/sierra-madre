@@ -144,16 +144,50 @@ p {
 }
 
 .happineess-rating-label-bold {
-font-size: 14px;
-font-weight: 600;
-line-height: 33.17px;
-color: #444951;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 33.17px;
+  color: #444951;
 }
 
 .happineess-rating-label {
   font-size: 12px;
   font-weight: 500;
   line-height: 33.17px;
-color: #4C535E;  
+  color: #4c535e;
+}
+
+.tickets-right-container {
+  background: #f2f3f5;
+  border: 1.33px solid #eeeeee;
+  padding: 26px 18px;
+  height: 100%;
+}
+.tickets-right-container-title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 33.17px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+
+.tickets-right-container-sub-title-bold {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 33.17px;
+  color: #4c535e;
+}
+.tickets-right-container-sub-title {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 33.17px;
+  color: #4c535e;
+}
+
+.tickets-right-container-value {
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 33.17px;
+  color: #444951;
 }
 

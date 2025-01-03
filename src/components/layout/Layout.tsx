@@ -46,7 +46,7 @@ function Layout() {
       {/* Main content */}
 
       <main className=" main-container w-full bg-white overflow-auto">
-        <Navbar/>
+        {/* <Navbar/> */}
         <Outlet />
       </main>
     </div>
